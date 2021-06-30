@@ -19,7 +19,7 @@ import com.minhalojadegames.model.Produto;
 import com.minhalojadegames.repository.ProdutoRepository;
 
 @RestController
-@RequestMapping("/produtos")
+@RequestMapping("/produto")
 @CrossOrigin("*")
 public class ProdutoController {
 
