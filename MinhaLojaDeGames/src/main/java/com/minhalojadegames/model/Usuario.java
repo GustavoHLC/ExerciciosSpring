@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.model;
+package com.minhalojadegames.model;
 
 import java.time.LocalDate;
 
@@ -51,6 +51,7 @@ public class Usuario {
 		this.nome = nome;
 		this.Login = login;
 		this.senha = senha;
+		this.admin = admin;
 		this.dataAniversario = dataAniversario;
 	}
 	

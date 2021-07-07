@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.controller;
+package com.minhalojadegames.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blogpessoal.model.UserLogin;
-import com.generation.blogpessoal.model.Usuario;
-import com.generation.blogpessoal.repository.UsuarioRepository;
-import com.generation.blogpessoal.service.UsuarioService;
+import com.minhalojadegames.model.UserLogin;
+import com.minhalojadegames.model.Usuario;
+import com.minhalojadegames.repository.UsuarioRepository;
+import com.minhalojadegames.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")
@@ -67,4 +67,5 @@ public class UsuarioController {
 			return ResponseEntity.badRequest().build();
 		}
 	}
+	
 }
